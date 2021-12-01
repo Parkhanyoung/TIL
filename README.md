@@ -1,2 +1,2 @@
-# computer_science
-1. 자료구조(with python)
+# TIL
+1. [자료구조(python)](https://github.com/Parkhanyoung/TIL/tree/main/data_structure_python)
