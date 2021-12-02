@@ -11,7 +11,7 @@ def gcd_sub(a, b):
 def gcd_mod(a, b):
     while not (a == 0 or b == 0):
         if a > b:
-            a= a % b
+            a = a % b
         elif (a <= b):
             b = b % a
     return a + b
