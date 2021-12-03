@@ -30,7 +30,7 @@ junction table은 오직 서로 다른 두 테이블의 데이터를 mapping 해
    
 이와 같이 몇대몇 관계인지 나타내는 Cardinality Contraints 외에도, 하나 이상의 participantion이 있어야 하는지 아닌지(django로 치면, null=True인지 아닌지)에 따라 구분짓는 Existence Dependency Constraints도 있다.   
    
-   
+- - -
 __공부 자료__   
 Database - Fundamentals: https://medium.com/omarelgabrys-blog/database-fundamentals-part-2-b841032243ac   
 다대다 관계: https://ict-nroo.tistory.com/127   
