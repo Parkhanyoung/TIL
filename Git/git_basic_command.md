@@ -5,7 +5,7 @@
 ### 설정   
 * git config —global [user.name](http://user.name) 이름   
 * git config —global [user.email](http://user.email) 이메일   
-   ---------ㄴ
+   ---------
 ### 저장(추적?)   
 * git add 파일명: git이 파일을 track하게 하기 위한 명령어. 해당 파일을 커밋 대기 상태로 만든다[staging area에 올린다]. 버전 관리에 포함하고자 하는 파일을 이 명령어를 통해 추가한다. 이 add 명령어 덕분에 한 번에 여러 작업을 해도 각각의 작업 내역을 다른 커밋으로 저장할 수 있다.      
 * git commit: git 핵심 명령어. 변화local repository에 올리는 명령어. 유의미한 변화를 기록할 때 사용하는 명령어이다. 변화의 역사가 모두 기록되기 때문에 언제든지(해당 커밋을 명시적으로 삭제하지 않는 이상) 원하는 커밋으로 되돌아갈 수 있다.        
