@@ -23,8 +23,7 @@
 7) 완성된 프로그램을 서버에 업로드 하거나 다운로드 받을 수 있게 하는 등, 사용자가 이용할 수 있게 한다.   
 8) 사용자에게 제공한 이후의 수정 사항이 발생하면, **master 브랜치로**부터 **hotfix 브랜치**를 파생시켜 버그를 잡고, 수정 사항을 **master 브랜치**에 병합시킨 뒤 tag로 버전을 명시한다. 그 후, **develop 브랜치**에까지 병합시킨다.   
      
-![gitflow](img/git_flow.png)
-     
+<img src="img/git_flow.png"  width="500" height="650"/>
 -------
 __공부 자료__    
 [생활코딩]지옥에서 온 Git: https://youtube.com/playlist?list=PLuHgQVnccGMA8iwZwrGyNXCGy2LAAsTXk    
