@@ -34,7 +34,7 @@ merge를 위한 툴(kdiff3): https://www.youtube.com/watch?v=0RqbZt_TZkY&list=PL
    
 * git rebase 브랜치이름: base(파생된 브랜치)를 바꾼다는 의미이다. 병합될 브랜치의 가장 최근 커밋을 base로 바꾼다. merge와 마찬가지로 두 브랜치를 병합하지만, merge는 브랜치들이 병렬 상태로 유지되는 반면, rebase는 브랜치들이 수평적으로 합쳐진다. rebase는 커밋의 역사를 한 눈에 알아보기 좋다는 장점이 있지만, 위험한 측면이 있으니 사용에 유의해야 한다.    
     
-![커밋이 Merge 될 때와, Rebase 될 때의 차이](img/git_merge_rebase.png)    
+<img src="img/gitbranch_concept.png"  width="400" height="350"/> 
     
 ### 임시 저장   
 * git stash: 어떤 작업을 하던 도중 다른 브랜치에서 다른 작업을 해야 하는 상황이 온다면, 하던 작업을 버릴 수도 없고 커밋할 수도 없는 상황이 벌어진다. 그때 변경 사항[git 저장소에서 관리하고 있는 파일들만을 대상으로 함]을 어딘가에 숨겨둘 수 있게 해주는 명령어이다. 변경 사항은 저장되지만, 스테이지 상태까지는 그대로 저장되지 않는다.       
@@ -67,6 +67,7 @@ fucntion a(master, exp) {
     
 *참고로 HEAD가 가리키는 브랜치가 현재 브랜치이다.    
      
+---
 __공부 자료__
 [생활코딩]지옥에서 온 Git: https://youtube.com/playlist?list=PLuHgQVnccGMA8iwZwrGyNXCGy2LAAsTXk    
 [누구나 쉽게 이해할 수 있는 Git 입문]브랜치(Branch): (https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)    

@@ -50,6 +50,6 @@ __git reset 옵션__
    
 - git revert: 커밋을 취소하면서 새로운 버전을 만드는 것.   
          
-   ----------
+---
 __공부 자료__   
 [생활코딩]지옥에서 온 Git: https://youtube.com/playlist?list=PLuHgQVnccGMA8iwZwrGyNXCGy2LAAsTXk
