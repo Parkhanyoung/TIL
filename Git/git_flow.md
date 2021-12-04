@@ -24,7 +24,7 @@
 8) 사용자에게 제공한 이후의 수정 사항이 발생하면, **master 브랜치로**부터 **hotfix 브랜치**를 파생시켜 버그를 잡고, 수정 사항을 **master 브랜치**에 병합시킨 뒤 tag로 버전을 명시한다. 그 후, **develop 브랜치**에까지 병합시킨다.   
      
 <img src="img/git_flow.png"  width="500" height="650"/>
--------
+   --------------
 __공부 자료__    
 [생활코딩]지옥에서 온 Git: https://youtube.com/playlist?list=PLuHgQVnccGMA8iwZwrGyNXCGy2LAAsTXk    
 [Plus Ultra tistory]협업을 위한 Git Flow 설정하기:https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-Git-Flow-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0
